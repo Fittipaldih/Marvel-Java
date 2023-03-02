@@ -88,11 +88,11 @@ public class TestMarvel {
 		List <Villano> villanosOrdenados = new ArrayList<>();
 		villanosOrdenados.addAll(batalla.getVillanos());
 		
-		assertEquals(villanosOrdenados.get(4), villano1);
-		assertEquals(villanosOrdenados.get(3), villano2);
+		assertEquals(villanosOrdenados.get(0), villano1);
+		assertEquals(villanosOrdenados.get(1), villano2);
 		assertEquals(villanosOrdenados.get(2), villano5);
-		assertEquals(villanosOrdenados.get(1), villano4);
-		assertEquals(villanosOrdenados.get(0), villano3);
+		assertEquals(villanosOrdenados.get(3), villano4);
+		assertEquals(villanosOrdenados.get(4), villano3);
 	}
 
 	@Test
