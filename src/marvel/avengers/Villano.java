@@ -8,6 +8,6 @@ public class Villano extends Personaje implements Comparable <Villano>{
 
 	@Override
 	public int compareTo(Villano o) {
-		return this.getCantidadPoder().compareTo(o.getCantidadPoder());
+		return o.getCantidadPoder().compareTo(this.getCantidadPoder());
 	}
 }
